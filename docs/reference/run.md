@@ -1257,10 +1257,10 @@ container's logging driver. The following options are supported:
 | `json-file` | Default logging driver for Docker. Writes JSON messages to file.  No logging options are supported for this driver.           |
 | `syslog`    | Syslog logging driver for Docker. Writes log messages to syslog.                                                              |
 | `journald`  | Journald logging driver for Docker. Writes log messages to `journald`.                                                        |
-| `gelf`      | Graylog Extended Log Format (GELF) logging driver for Docker. Writes log messages to a GELF endpoint likeGraylog or Logstash. |
+| `gelf`      | Graylog Extended Log Format (GELF) logging driver for Docker. Writes log messages to a GELF endpoint like Graylog or Logstash. |
 | `fluentd`   | Fluentd logging driver for Docker. Writes log messages to `fluentd` (forward input).                                          |
 | `awslogs`   | Amazon CloudWatch Logs logging driver for Docker. Writes log messages to Amazon CloudWatch Logs                               |
-| `splunk`    | Splunk logging driver for Docker. Writes log messages to `splunk` using Event Http Collector.                                 |
+| `splunk`    | Splunk logging driver for Docker. Writes log messages to `splunk` using Event HTTP Collector.                                 |
 
 The `docker logs` command is available only for the `json-file` and `journald`
 logging drivers.  For detailed information on working with logging drivers, see
